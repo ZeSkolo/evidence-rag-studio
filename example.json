@@ -1,0 +1,14 @@
+{
+  "mode": "extractive",
+  "question": "How are snapshot blocks protected?",
+  "documents": [
+    {
+      "id": "storage-notes",
+      "text": "Snapshot blocks are immutable. CRC32 checksums detect accidental corruption. Named snapshots retain block references."
+    },
+    {
+      "id": "web-notes",
+      "text": "The booking API rejects conflicting room reservations."
+    }
+  ]
+}
